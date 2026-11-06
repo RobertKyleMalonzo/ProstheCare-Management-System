@@ -1,8 +1,8 @@
 {
   "functions": {
-    "*.php": { "runtime": "vercel-php@0.7.4" }
+    "prosthecare/api/*.php": { "runtime": "vercel-php@0.7.4" }
   },
   "rewrites": [
-    { "source": "/(.*)", "destination": "index.php" }
+    { "source": "/(.*)", "destination": "/prosthecare/index.php" }
   ]
 }
